@@ -1,7 +1,8 @@
 import React from "react";
-import img from "../images/myWeatherDashboard_img.PNG";
-import "./PortfolioImg.css";
+import img from "../images/IMG_2611_2.jpg";
 
 export default function PortfolioImg() {
-  return <img className="avatar" src={img} alt="My porfolio" />;
+  return (
+    <img className="avatar flip-scale-up-ver" src={img} alt="My porfolio" />
+  );
 }

@@ -13,7 +13,7 @@ const Main = () => {
       <NavBar />
       <div className="Container">
         <div className="row">
-          <div className="col-sm-12 col-md-6 border text-center">
+          <div className="col-sm-12 col-md-6 text-center">
             <PortfolioImg />
           </div>
           <div className="col-sm-12 col-md-6 border text-center">

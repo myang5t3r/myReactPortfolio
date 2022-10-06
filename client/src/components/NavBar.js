@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div>
+    <div className="m-5">
       <nav className="navbar navbar-expand-lg p-4">
         <div className="container-fluid">
           <h1 style={{ color: "white" }}>Matthew Yang</h1>
