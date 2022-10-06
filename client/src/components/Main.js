@@ -3,22 +3,32 @@ import React from "react";
 import { useState, useEffect } from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import Carousel from "./Carousel";
+import PortfolioImg from "./PortfolioImg";
 
 const Main = () => {
   // Very important to return JSX
   return (
     <>
       <NavBar />
-      <div>
-        <div class="row">
-          <div class="col-sm-12 col-md-6 border">Container 1</div>
-          <div class="col-sm-12 col-md-6 border">Container 2</div>
+      <div className="Container">
+        <div className="row">
+          <div className="col-sm-12 col-md-6 border text-center">
+            <PortfolioImg />
+          </div>
+          <div className="col-sm-12 col-md-6 border text-center">
+            <h1 style={{ color: "white" }}>Container 2</h1>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-sm-12 border">Carousel</div>
+        <div className="row">
+          <div className="col-sm-12 border text-center">
+            <Carousel />
+          </div>
         </div>
       </div>
-      <Footer />
+      <div className="col-sm-12 d-flex justify-content-center">
+        <Footer />
+      </div>
     </>
   );
 };
