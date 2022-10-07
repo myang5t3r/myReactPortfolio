@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Carousel from "./Carousel";
 import PortfolioImg from "./PortfolioImg";
+import Aboutme from "./Aboutme";
 
 const Main = () => {
   // Very important to return JSX
@@ -12,12 +13,12 @@ const Main = () => {
     <>
       <NavBar />
       <div className="Container">
-        <div className="row">
-          <div className="col-sm-12 col-md-6 text-center">
+        <div className="row justify-content-center">
+          <div className="col-sm-12 col-md-2  text-center">
             <PortfolioImg />
           </div>
-          <div className="col-sm-12 col-md-6 border text-center">
-            <h1 style={{ color: "white" }}>Container 2</h1>
+          <div className="col-sm-12 col-md-6 text-center m-1">
+            <Aboutme />
           </div>
         </div>
         <div className="row">
@@ -26,9 +27,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <div className="col-sm-12 d-flex justify-content-center">
-        <Footer />
-      </div>
+      <Footer />
     </>
   );
 };
