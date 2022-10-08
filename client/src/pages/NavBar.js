@@ -1,4 +1,13 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+
+import MyBtns from "../components/MyBtns";
+
+const btn1 = "About Me";
+const btn2 = "Projects";
+const btn3 = "Contact";
 
 export default function NavBar() {
   return (
@@ -8,24 +17,19 @@ export default function NavBar() {
           <h1 style={{ color: "white" }}>Matthew Yang</h1>
           <ul className="navbar-nav pe-5 fs-5">
             <li className="nav-iztem">
-              <a
-                className="nav-link active"
-                aria-current="page"
-                href="#"
-                style={{ color: "white" }}
-              >
-                About
-              </a>
+              <Link to={{ pathname: `/` }}>
+                <MyBtns name={btn1} />
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: "white" }}>
-                Projects
-              </a>
+              <Link to={{ pathname: `/project` }}>
+                <MyBtns name={btn2} />
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="#" style={{ color: "white" }}>
-                Contact
-              </a>
+              <Link to={{ pathname: `/Contacts` }}>
+                <MyBtns name={btn3} />
+              </Link>
             </li>
           </ul>
         </div>

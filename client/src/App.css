@@ -69,6 +69,25 @@ h2 {
   align-items: center;
 }
 
+.carousel-control-prev-icon {
+  background-image: url(./images/icons8-chevron-left-50.png);
+  background-color: white;
+  border-radius: 3.75em;
+}
+
+.carousel-control-next-icon {
+  background-image: url(./images/icons8-chevron-right-50.png);
+  background-color: white;
+  border-radius: 3.75em;
+}
+
+.carousel-control-next-icon:hover {
+  background-color: rgb(93, 200, 236);
+}
+.carousel-control-prev-icon:hover {
+  background-color: rgb(93, 200, 236);
+}
+
 .kenburns-top {
   -webkit-animation: kenburns-top 1.25s ease-in-out reverse both;
   animation: kenburns-top 1.25s ease-in-out reverse both;

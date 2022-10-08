@@ -6,7 +6,7 @@ import resumelink from "../images/MatthewYang_Resume_7_30_22.pdf";
 
 export default function Footer() {
   return (
-    <div className="col-sm-12 d-flex justify-content-center">
+    <div className="col-sm-12 d-flex justify-content-center pt-4">
       <a
         href="https://www.linkedin.com/in/matthew-yang-48384765/"
         target="_blank"

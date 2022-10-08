@@ -1,13 +1,12 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 
-import { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import NavBar from "./pages/NavBar";
 import Footer from "./pages/Footer";
 import Aboutme from "./pages/Aboutme";
-import Carousel from "./pages/Carousel";
+import Projects from "./pages/Carousel";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -15,15 +14,15 @@ import "./App.css";
 export default function App() {
   // Very important to return JSX
   return (
-    <>
+    <Router>
       <NavBar />
       <Container>
-        <Row>
-          <Aboutme />
-        </Row>
-        <Carousel />
+        <Routes>
+          <Route path="/" element={<Aboutme />} />
+          <Route path="/project" element={<Projects />} />
+        </Routes>
       </Container>
       <Footer />
-    </>
+    </Router>
   );
 }
