@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 import MyBtns from "../components/MyBtns";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import slide1 from "../images/jsChallengSite.PNG";
 import slide2 from "../images/myWeatherDashboard_img.PNG";
@@ -25,7 +25,7 @@ function ControlledCarousel() {
   };
   return (
     <Row>
-      <h1>Projects</h1>
+      <h2>Projects</h2>
       <Col sm={12}>
         <Carousel
           activeIndex={index}

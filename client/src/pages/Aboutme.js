@@ -5,13 +5,6 @@ import Container from "react-bootstrap/Container";
 
 import PortfolioImg from "./PortfolioImg";
 
-// Try styling
-const styles = {
-  container: {
-    display: "flex",
-    justifyContent: "spaceBetween",
-  },
-};
 export default function Aboutme() {
   return (
     <Container fluid>

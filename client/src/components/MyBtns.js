@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import { useState, useEffect } from "react";
 
 const myarray = [
   "https://myang5t3r.github.io/TimedCodeQuiz/",
