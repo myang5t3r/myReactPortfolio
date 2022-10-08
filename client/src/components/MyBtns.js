@@ -20,15 +20,15 @@ const gitrepo = [
 export default function MyBtns(props) {
   const handleClickRepo = () => {
     console.log(props.index);
-    // window.open(myarray[props.index]);
+    window.open(myarray[props.index]);
   };
   const handleClickLaunch = () => {
     console.log(props.index);
-    // window.open(gitrepo[props.index]);
+    window.open(gitrepo[props.index]);
   };
 
   switch (props.name) {
-    case "About Me":
+    case "About":
       return (
         <Button className="m-2" variant="outline-light">
           {props.name}
@@ -40,7 +40,7 @@ export default function MyBtns(props) {
           {props.name}
         </Button>
       );
-    case "Contacts":
+    case "Contact":
       return (
         <Button className="m-2" variant="outline-light">
           {props.name}
@@ -57,7 +57,7 @@ export default function MyBtns(props) {
           {props.name}
         </Button>
       );
-    case "Launch":
+    case "Live Deploy":
       return (
         <Button
           className="m-2"

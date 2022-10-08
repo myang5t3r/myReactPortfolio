@@ -34,52 +34,52 @@ function ControlledCarousel() {
           indicators={false}
         >
           <Carousel.Item>
-            <img className=" w-75 " src={slide1} alt="First slide" />
+            <img className=" w-75 rounded" src={slide1} alt="First slide" />
             <Card.Body style={{ color: "white", fontSize: "2em" }}>
               Description of project 1 In this project...
               <Card.Body>
                 <MyBtns name="Repository" index={index} />
-                <MyBtns name="Launch" index={index} />
+                <MyBtns name="Live Deploy" index={index} />
               </Card.Body>
             </Card.Body>
           </Carousel.Item>
           <Carousel.Item>
-            <img className=" w-75 " src={slide2} alt="First slide" />
+            <img className=" w-75 rounded" src={slide2} alt="First slide" />
             <Card.Body style={{ color: "white", fontSize: "2em" }}>
               Description of project 1 In this project...
               <Card.Body>
                 <MyBtns name="Repository" index={index} />
-                <MyBtns name="Launch" index={index} />
+                <MyBtns name="Live Deploy" index={index} />
               </Card.Body>
             </Card.Body>
           </Carousel.Item>
           <Carousel.Item>
-            <img className=" w-75 " src={slide3} alt="First slide" />
+            <img className=" w-75 rounded" src={slide3} alt="First slide" />
             <Card.Body style={{ color: "white", fontSize: "2em" }}>
               Description of project 1 In this project...
               <Card.Body>
                 <MyBtns name="Repository" index={index} />
-                <MyBtns name="Launch" index={index} />
+                <MyBtns name="Live Deploy" index={index} />
               </Card.Body>
             </Card.Body>
           </Carousel.Item>
           <Carousel.Item>
-            <img className=" w-75 " src={slide4} alt="First slide" />
+            <img className=" w-75 rounded" src={slide4} alt="First slide" />
             <Card.Body style={{ color: "white", fontSize: "2em" }}>
               Description of project 1 In this project...
               <Card.Body>
                 <MyBtns name="Repository" index={index} />
-                <MyBtns name="Launch" index={index} />
+                <MyBtns name="Live Deploy" index={index} />
               </Card.Body>
             </Card.Body>
           </Carousel.Item>
           <Carousel.Item>
-            <img className=" w-75 " src={slide5} alt="First slide" />
+            <img className=" w-75 rounded" src={slide5} alt="First slide" />
             <Card.Body style={{ color: "white", fontSize: "2em" }}>
               Description of project 1 In this project...
               <Card.Body>
                 <MyBtns name="Repository" index={index} />
-                <MyBtns name="Launch" index={index} />
+                <MyBtns name="Live Deploy" index={index} />
               </Card.Body>
             </Card.Body>
           </Carousel.Item>

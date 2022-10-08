@@ -1,7 +1,9 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
-import PortfolioImg from "./PortfolioImg";
 import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
+
+import PortfolioImg from "./PortfolioImg";
 
 // Try styling
 const styles = {
@@ -12,13 +14,15 @@ const styles = {
 };
 export default function Aboutme() {
   return (
-    <Row>
-      <div style={styles.container}>
-        <Col sm={12} md={4}>
+    <Container fluid>
+      <Row>
+        <Col sm={12} lg={4}>
           <PortfolioImg />
+          <h3>System Test Engineer</h3>
+          <h3>Full Stack Developer</h3>
         </Col>
-        <Col sm={12} md={8} className="text-right">
-          <h2>About me</h2>
+        <Col sm={12} lg={8} className="text-right">
+          <h2>About</h2>
           <p class="sec1_p">
             Hello,
             <br />
@@ -36,7 +40,7 @@ export default function Aboutme() {
             Matthew Yang
           </p>
         </Col>
-      </div>
-    </Row>
+      </Row>
+    </Container>
   );
 }

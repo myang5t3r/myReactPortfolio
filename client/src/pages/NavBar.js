@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 import MyBtns from "../components/MyBtns";
 
-const btn1 = "About Me";
+const btn1 = "About";
 const btn2 = "Projects";
 const btn3 = "Contact";
 
