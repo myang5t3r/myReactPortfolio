@@ -12,10 +12,10 @@ const styles = {
 export default function Aboutme() {
   return (
     <div style={styles.container}>
-      <Col sm={12} lg={4}>
+      <Col sm={12} md={4}>
         <PortfolioImg />
       </Col>
-      <Col sm={12} lg={8} className="text-right">
+      <Col sm={12} md={8} className="text-right">
         <h2>About me</h2>
         <p class="sec1_p">
           Hello,
