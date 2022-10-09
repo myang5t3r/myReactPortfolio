@@ -8,6 +8,7 @@ import Tech from "./pages/Tech";
 import Footer from "./pages/Footer";
 import Aboutme from "./pages/Aboutme";
 import Projects from "./pages/Carousel";
+import Contact from "./pages/Contact";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -21,9 +22,11 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Aboutme />} />
           <Route path="/project" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/tech" element={<Tech />} />
         </Routes>
       </Container>
-      <Tech />
+      {/* <Tech /> */}
       <Footer />
     </Router>
   );

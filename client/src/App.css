@@ -92,6 +92,12 @@ h3 {
   background-color: rgb(93, 200, 236);
 }
 
+.mybtn {
+}
+.mybtn:hover {
+  background-color: rgb(93, 200, 236);
+}
+
 .kenburns-top {
   -webkit-animation: kenburns-top 1.25s ease-in-out reverse both;
   animation: kenburns-top 1.25s ease-in-out reverse both;

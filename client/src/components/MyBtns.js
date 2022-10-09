@@ -29,28 +29,35 @@ export default function MyBtns(props) {
   switch (props.name) {
     case "About":
       return (
-        <Button className="m-2" variant="outline-light">
+        <Button className="m-2 mybtn" variant="outline-light" size="lg">
           {props.name}
         </Button>
       );
     case "Projects":
       return (
-        <Button className="m-2" variant="outline-light">
+        <Button className="m-2 mybtn" variant="outline-light" size="lg">
           {props.name}
         </Button>
       );
     case "Contact":
       return (
-        <Button className="m-2" variant="outline-light">
+        <Button className="m-2 mybtn" variant="outline-light" size="lg">
+          {props.name}
+        </Button>
+      );
+    case "Technologies":
+      return (
+        <Button className="m-2 mybtn" variant="outline-light" size="lg">
           {props.name}
         </Button>
       );
     case "Repository":
       return (
         <Button
-          className="m-2"
+          className="m-2 mybtn"
           variant="outline-light"
           type="button"
+          size="lg"
           onClick={handleClickRepo}
         >
           {props.name}
@@ -59,9 +66,10 @@ export default function MyBtns(props) {
     case "Live Deploy":
       return (
         <Button
-          className="m-2"
+          className="m-2 mybtn"
           variant="outline-light"
           type="button"
+          size="lg"
           onClick={handleClickLaunch}
         >
           {props.name}
