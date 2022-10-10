@@ -20,7 +20,7 @@
 
 ## Description
 
-This project showcases my professional portfolio build with React. Modules such as react, react-router-dom, and react-bootstrap is used to dynamically render the application without calling back to a server. This optimizes the performance of the web-app and is clear why React is highly used. React allows us the manipulate the virtual dom which proves a positive user experience, allowing the user to seamlessly traverse the web application. Vanilla Javascript and Node.js is also used in the applications to hand useEffects and Events. To put my personal touches to the styling I also used CSS to style/customize particular elements
+This project showcases my professional portfolio build with React. Modules such as react, react-router-dom, and react-bootstrap is used to dynamically render the application without calling back to a server. This optimizes the performance of the web-app and is clear why React is highly used. React allows us the manipulate the virtual dom which proves a positive user experience, allowing the user to seamlessly traverse the web application. Vanilla Javascript and Node.js is also used in the applications to handle events. To put my personal touches to the styling I also used CSS to style/customize particular elements
 
 ---
 
