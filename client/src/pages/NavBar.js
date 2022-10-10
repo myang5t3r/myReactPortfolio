@@ -22,7 +22,7 @@ export default function NavBar() {
           <Col sm={12} lg={4}>
             <ul className="navbar-nav ">
               <li className="nav-item ">
-                <Link to={{ pathname: `/myReactPortfolio` }}>
+                <Link to={{ pathname: `/myReactPortfolio/` }}>
                   <MyBtns name={btn1} />
                 </Link>
               </li>

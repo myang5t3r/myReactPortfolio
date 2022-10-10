@@ -20,7 +20,7 @@ export default function App() {
       <NavBar />
       <Container>
         <Routes>
-          <Route path="/myReactPortfolio" element={<Aboutme />} />
+          <Route path="/myReactPortfolio/" element={<Aboutme />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/tech" element={<Tech />} />
