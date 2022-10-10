@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import { useState, useEffect } from "react";
 
 import MyBtns from "../components/MyBtns";
 
@@ -23,7 +22,7 @@ export default function NavBar() {
           <Col sm={12} lg={4}>
             <ul className="navbar-nav ">
               <li className="nav-item ">
-                <Link to={{ pathname: `/` }}>
+                <Link to={{ pathname: `/myReactPortfolio` }}>
                   <MyBtns name={btn1} />
                 </Link>
               </li>
