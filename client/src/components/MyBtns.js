@@ -7,6 +7,7 @@ const myarray = [
   "https://chuckfee23.github.io/project1-group5/",
   "https://myang5t3r.github.io/myDayScheduler/",
   "https://pure-crag-34548.herokuapp.com/",
+  "https://desolate-inlet-39798.herokuapp.com/,",
 ];
 
 const gitrepo = [
@@ -15,15 +16,16 @@ const gitrepo = [
   "https://github.com/chuckfee23/project1-group5",
   "https://github.com/myang5t3r/myDayScheduler",
   "https://github.com/myang5t3r/myTextEditor",
+  "https://github.com/myang5t3r/NotYourAverageBookies",
 ];
 export default function MyBtns(props) {
   const handleClickRepo = () => {
     console.log(props.index);
-    window.open(myarray[props.index]);
+    window.open(gitrepo[props.index]);
   };
   const handleClickLaunch = () => {
     console.log(props.index);
-    window.open(gitrepo[props.index]);
+    window.open(myarray[props.index]);
   };
 
   // eslint-disable-next-line default-case
