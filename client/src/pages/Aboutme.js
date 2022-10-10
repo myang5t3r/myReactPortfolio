@@ -16,7 +16,7 @@ export default function Aboutme() {
         </Col>
         <Col sm={12} lg={8} className="text-right">
           <h2>About</h2>
-          <p class="sec1_p">
+          <p className="sec1_p">
             Hello,
             <br />
             <br />

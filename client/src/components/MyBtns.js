@@ -26,6 +26,7 @@ export default function MyBtns(props) {
     window.open(gitrepo[props.index]);
   };
 
+  // eslint-disable-next-line default-case
   switch (props.name) {
     case "About":
       return (
@@ -48,6 +49,17 @@ export default function MyBtns(props) {
     case "Technologies":
       return (
         <Button className="m-2 mybtn" variant="outline-light" size="lg">
+          {props.name}
+        </Button>
+      );
+    case "Submit":
+      return (
+        <Button
+          className="m-2 mybtn"
+          variant="outline-light"
+          size="lg"
+          type="submit"
+        >
           {props.name}
         </Button>
       );
