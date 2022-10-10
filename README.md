@@ -33,7 +33,7 @@ https://myang5t3r.github.io/myReactPortfolio/
 
 ## Usage
 
-Navigate to live deploy and view About, Project, Contact, and Technologies pages. You can use the buttons on the projects carousel to launch the github repository and the live deployment of each application. The icons in the footer section are links to my LinkedIn, Github and to download my current resume.
+Navigate to live deploy and view About, Project, Contact, and Technologies pages. You can use the buttons on the projects carousel to launch the github repositories and the live deployment of each application. The icons in the footer section are links to my LinkedIn, Github and to download my current resume.
 
 ![Image of portfolio ](./client/src/images/ReadMeImg.PNG)
 
