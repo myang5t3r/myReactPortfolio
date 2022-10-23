@@ -2,7 +2,7 @@ import React from "react";
 import linkedIn from "../images/icons8-linkedin-48.png";
 import github from "../images/icons8-github-64.png";
 import resume from "../images/icons8-resume-64.png";
-import resumelink from "../images/MatthewYang_Resume_7_30_22.pdf";
+import resumelink from "../images/myResume10_22.pdf";
 
 export default function Footer() {
   return (
