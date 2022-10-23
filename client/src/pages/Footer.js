@@ -7,10 +7,7 @@ import resumelink from "../images/myResume10_22.pdf";
 export default function Footer() {
   return (
     <div className="col-sm-12 d-flex justify-content-center pt-4">
-      <a
-        href="https://www.linkedin.com/in/matthew-yang-48384765/"
-        target="_blank"
-      >
+      <a href="https://www.linkedin.com/in/yangmatthew85/" target="_blank">
         <img
           className="footer_icons m-4"
           src={linkedIn}
